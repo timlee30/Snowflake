@@ -1,0 +1,101 @@
+employee_id,first_name,last_name,department,salary,hire_date,location
+E001,John,Doe,Engineering,5000,2024-03-15,New York-USA
+E002,Jane,Smith,Marketing,4000,2021-06-22,England-United Kingdom
+E003,Jim,Brown,Sales,3000,2024-08-30,Paris-France
+E004,Linda,White,HR,3500,2020-01-10,Berlin-Germany
+E005,Michael,Johnson,Engineering,6000,2018-11-12,Tokyo-Japan
+E006,Emily,Davis,Marketing,4500,2023-02-14,Victoria-Australia
+E007,Chris,Lee,Sales,10000,2021-07-25,Ontario-Canada
+E008,Karen,Wilson,HR,3700,2020-05-18,North Holland-Netherlands
+E009,Paul,Moore,Engineering,5200,2021-12-01,CDMX-Mexico
+E010,Anna,Jackson,Marketing,4800,2019-04-25,So Paulo-Brazil
+E011,David,Martinez,Sales,3300,2022-02-07,Catalonia-Spain
+E012,Patricia,Garcia,HR,3600,2024-11-30,Sodermanland-Sweden
+E013,Robert,Martinez,Engineering,60000,2020-09-20,New South Wales-Australia
+E014,Mary,Lopez,Marketing,4200,2021-03-11,Buenos Aires-Argentina
+E015,James,Clark,Sales,3100,2020-06-15,Western Cape-South Africa
+E016,Lisa,Allen,HR,25000,2023-01-20,Seoul-South Korea
+E017,Richard,Young,Engineering,6000,2018-10-22,New York-USA
+E018,Barbara,Hernandez,Marketing,4700,2022-03-01,Cundinamarca-Colombia
+E019,William,King,Sales,3500,2020-07-17,Nairobi-Kenya
+E020,Elizabeth,Wright,HR,4100,2021-08-05,Leinster-Ireland
+E021,Joseph,Scott,Engineering,5300,2020-11-14,Paris-France
+E022,Susan,Adams,Marketing,4600,2021-04-01,Berlin-Germany
+E023,Thomas,Mitchell,Sales,3000,2021-05-19,NCT-India
+E024,Charlotte,Roberts,HR,4000,2023-10-09,Kuala Lumpur-Malaysia
+E025,Daniel,Carter,Engineering,5600,2018-03-23,England-United Kingdom
+E026,Matthew,Baker,Marketing,4900,2023-05-06,Paris-France
+E027,Jessica,Gonzalez,Sales,35000,2024-02-04,Santiago-Chile
+E028,Joshua,Evans,HR,3800,2021-11-13,Tokyo-Japan
+E029,Anna,Nelson,Engineering,5100,2020-04-28,Victoria-Australia
+E030,Andrew,Green,Marketing,4300,2022-07-20,New York-USA
+E031,Grace,King,Sales,3250,2021-09-12,Lagos-Nigeria
+E032,Jack,Collins,HR,3800,2020-03-21,New South Wales-Australia
+E033,Nancy,Lee,Engineering,5200,2021-10-10,Quebec-Canada
+E034,Karen,Carter,Marketing,20000,2021-01-01,Tokyo-Japan
+E035,Megan,Reed,Sales,3200,2022-09-03,Maharashtra-India
+E036,Jacob,Price,HR,3700,2020-06-28,North Holland-Netherlands
+E037,Kimberly,Mitchell,Engineering,5400,2021-12-18,Buenos Aires-Argentina
+E038,Matthew,Evans,Marketing,4900,2020-01-17,Cundinamarca-Colombia
+E039,Christopher,Phillips,Sales,3300,2021-02-05,Gauteng-South Africa
+E040,Katherine,Edwards,HR,3900,2023-06-14,Seoul-South Korea
+E041,Daniel,Watson,Engineering,5800,2022-11-05,Lima-Peru
+E042,Susan,Hall,Marketing,27000,2021-08-01,Jakarta-Indonesia
+E043,James,Young,Sales,3500,2023-05-23,CDMX-Mexico
+E044,Elizabeth,Lopez,HR,4100,2022-02-22,Quebec-Canada
+E045,William,Bailey,Engineering,5900,2021-06-19,Oslo-Norway
+E046,Mary,Anderson,Marketing,4700,2021-03-13,Distrito Capital-Venezuela
+E047,David,White,Sales,3300,2024-04-30,Tokyo-Japan
+E048,Linda,Jackson,HR,40000,2020-08-21,Rio de Janeiro-Brazil
+E049,John,Rodriguez,Engineering,5300,2021-05-10,Paris-France
+E050,Michael,Cook,Marketing,4600,2021-02-26,Seoul-South Korea
+E051,William,Williams,Sales,3400,2024-09-14,NCT-India
+E052,Susan,Green,HR,3900,2024-03-30,Buenos Aires-Argentina
+E053,Joshua,Adams,Engineering,11000,2021-07-06,England-United Kingdom
+E054,Patricia,Clark,Marketing,4400,2021-06-10,Catalonia-Spain
+E055,Thomas,Morris,Sales,3100,2022-04-15,Lazio-Italy
+E056,Nancy,Walker,HR,16000,2020-12-01,Gauteng-South Africa
+E057,Daniel,Jackson,Engineering,6000,2021-08-17,San Jose-Costa Rica
+E058,Jessica,Martin,Marketing,4700,2021-11-29,Brussels-Belgium
+E059,Thomas,Lopez,Sales,3300,2020-01-13,Uusimaa-Finland
+E060,Karen,Young,HR,4100,2023-07-27,Kigali-Rwanda
+E061,Grace,Walker,Engineering,5300,2021-05-21,Paris-France
+E062,Matthew,Allen,Marketing,4800,2021-02-18,England-United Kingdom
+E063,Joseph,Moore,Sales,3200,2020-07-19,Buenos Aires-Argentina
+E064,Robert,Thomas,HR,4000,2024-08-24,Sodermanland-Sweden
+E065,Patricia,Scott,Engineering,15000,2021-04-23,Distrito Capital-Venezuela
+E066,Mary,Roberts,Marketing,4500,2024-02-09,Tokyo-Japan
+E067,John,Walker,Sales,3300,2020-05-14,Lagos-Nigeria
+E068,Barbara,Hall,HR,3900,2020-09-06,Beijing-China
+E069,Susan,Morris,Engineering,5400,2020-03-03,Kuala Lumpur-Malaysia
+E070,James,Lopez,Marketing,11000,2021-12-10,Paris-France
+E071,David,Allen,Sales,3500,2020-01-25,England-United Kingdom
+E072,Patricia,Johnson,HR,4100,2023-07-12,Rio de Janeiro-Brazil
+E073,Michael,White,Engineering,5800,2020-12-11,New South Wales-Australia
+E074,Jessica,King,Marketing,4800,2022-06-13,Tokyo-Japan
+E075,Susan,Evans,Sales,3300,2022-05-22,San Salvador-El Salvador
+E076,Joshua,Hall,HR,3800,2022-08-19,Paris-France
+E077,Barbara,White,Engineering,5600,2021-06-29,Catalonia-Spain
+E078,William,Miller,Marketing,4700,2022-04-04,New York-USA
+E079,John,Scott,Sales,3400,2021-10-16,England-United Kingdom
+E080,Elizabeth,Martin,HR,4200,2021-09-13,New South Wales-Australia
+E081,Michael,Evans,Engineering,6000,2020-05-01,Tokyo-Japan
+E082,James,Baker,Marketing,33000,2020-02-06,Seoul-South Korea
+E083,Susan,Brown,Sales,3300,2018-11-14,Quebec-Canada
+E084,Karen,Johnson,HR,3900,2022-10-03,Buenos Aires-Argentina
+E085,David,White,Engineering,5300,2021-12-05,Paris-France
+E086,William,Anderson,Marketing,4600,2022-08-07,New South Wales-Australia
+E087,Jessica,Thomas,Sales,21000,2023-01-01,Victoria-Australia
+E088,Mary,Walker,HR,3800,2022-11-19,Rio de Janeiro-Brazil
+E089,Michael,Scott,Engineering,5500,2020-06-04,England-United Kingdom
+E090,Joshua,Baker,Marketing,4700,2024-07-13,Distrito Capital-Venezuela
+E091,David,Johnson,Sales,3400,2021-10-24,Kuala Lumpur-Malaysia
+E092,Elizabeth,Wilson,HR,4200,2021-04-29,Sodermanland-Sweden
+E093,Patricia,Lee,Engineering,5800,2020-02-12,Buenos Aires-Argentina
+E094,Susan,Moore,Marketing,4900,2020-07-16,New South Wales-Australia
+E095,David,Roberts,Sales,3500,2022-02-20,San Salvador-El Salvador
+E096,Michael,Collins,HR,4300,2022-06-22,Quebec-Canada
+E097,Patricia,Edwards,Engineering,5400,2021-01-03,England-United Kingdom
+E098,James,Lopez,Marketing,4800,2023-04-25,Tokyo-Japan
+E099,John,Hall,Sales,47000,2022-10-16,Maharashtra-India
+E100,Elizabeth,Martinez,HR,4000,2020-11-10,Victoria-Australia

@@ -1,0 +1,329 @@
+{
+    "companies": {
+      "Tech Supplies Inc.": {
+        "sales_period": "Q4 2024",
+        "regions": {
+          "North America": {
+            "total_sales": 800000,
+            "products": {
+              "laptop": {
+                "units_sold": 800,
+                "revenue": 300000
+              },
+              "tablet": {
+                "units_sold": 1500,
+                "revenue": 300000
+              },
+              "smartphone": {
+                "units_sold": 1000,
+                "revenue": 200000
+              }
+            }
+          },
+          "Europe": {
+            "total_sales": 500000,
+            "products": {
+              "laptop": {
+                "units_sold": 700,
+                "revenue": 300000
+              },
+              "tablet": {
+                "units_sold": 1000,
+                "revenue": 200000
+              }
+            }
+          },
+          "Asia": {
+            "total_sales": 300000,
+            "products": {
+              "smartphone": {
+                "units_sold": 500,
+                "revenue": 300000
+              }
+            }
+          }
+        },
+        "total_revenue": 1600000,
+        "total_units_sold": 5500
+      },
+      "Gadget World Ltd.": {
+        "sales_period": "Q4 2024",
+        "regions": {
+          "South America": {
+            "total_sales": 250000,
+            "products": {
+              "tablet": {
+                "units_sold": 700,
+                "revenue": 150000
+              },
+              "laptop": {
+                "units_sold": 500,
+                "revenue": 100000
+              }
+            }
+          },
+          "North America": {
+            "total_sales": 600000,
+            "products": {
+              "smartphone": {
+                "units_sold": 1500,
+                "revenue": 450000
+              },
+              "laptop": {
+                "units_sold": 800,
+                "revenue": 150000
+              }
+            }
+          },
+          "Europe": {
+            "total_sales": 350000,
+            "products": {
+              "tablet": {
+                "units_sold": 600,
+                "revenue": 150000
+              },
+              "smartphone": {
+                "units_sold": 900,
+                "revenue": 200000
+              }
+            }
+          }
+        },
+        "total_revenue": 1200000,
+        "total_units_sold": 5000
+      },
+      "Digital Innovations": {
+        "sales_period": "Q4 2024",
+        "regions": {
+          "Asia": {
+            "total_sales": 400000,
+            "products": {
+              "tablet": {
+                "units_sold": 1000,
+                "revenue": 250000
+              },
+              "laptop": {
+                "units_sold": 500,
+                "revenue": 150000
+              }
+            }
+          },
+          "North America": {
+            "total_sales": 350000,
+            "products": {
+              "smartphone": {
+                "units_sold": 800,
+                "revenue": 200000
+              },
+              "laptop": {
+                "units_sold": 700,
+                "revenue": 150000
+              }
+            }
+          }
+        },
+        "total_revenue": 750000,
+        "total_units_sold": 3000
+      },
+      "ElectroWorld Inc.": {
+        "sales_period": "Q4 2024",
+        "regions": {
+          "Europe": {
+            "total_sales": 500000,
+            "products": {
+              "smartphone": {
+                "units_sold": 1000,
+                "revenue": 300000
+              },
+              "tablet": {
+                "units_sold": 500,
+                "revenue": 200000
+              }
+            }
+          },
+          "South America": {
+            "total_sales": 250000,
+            "products": {
+              "laptop": {
+                "units_sold": 800,
+                "revenue": 150000
+              },
+              "smartphone": {
+                "units_sold": 700,
+                "revenue": 100000
+              }
+            }
+          }
+        },
+        "total_revenue": 750000,
+        "total_units_sold": 3000
+      },
+      "Future Tech": {
+        "sales_period": "Q4 2024",
+        "regions": {
+          "North America": {
+            "total_sales": 500000,
+            "products": {
+              "tablet": {
+                "units_sold": 1200,
+                "revenue": 300000
+              },
+              "smartphone": {
+                "units_sold": 1000,
+                "revenue": 200000
+              }
+            }
+          },
+          "Asia": {
+            "total_sales": 300000,
+            "products": {
+              "laptop": {
+                "units_sold": 800,
+                "revenue": 200000
+              },
+              "smartphone": {
+                "units_sold": 400,
+                "revenue": 100000
+              }
+            }
+          }
+        },
+        "total_revenue": 800000,
+        "total_units_sold": 3400
+      },
+      "Global Gadget Co.": {
+        "sales_period": "Q4 2024",
+        "regions": {
+          "South America": {
+            "total_sales": 200000,
+            "products": {
+              "tablet": {
+                "units_sold": 500,
+                "revenue": 100000
+              },
+              "laptop": {
+                "units_sold": 400,
+                "revenue": 100000
+              }
+            }
+          },
+          "Europe": {
+            "total_sales": 400000,
+            "products": {
+              "tablet": {
+                "units_sold": 700,
+                "revenue": 150000
+              },
+              "smartphone": {
+                "units_sold": 800,
+                "revenue": 250000
+              }
+            }
+          }
+        },
+        "total_revenue": 600000,
+        "total_units_sold": 2400
+      },
+      "TechMasters": {
+        "sales_period": "Q4 2024",
+        "regions": {
+          "North America": {
+            "total_sales": 450000,
+            "products": {
+              "smartphone": {
+                "units_sold": 1000,
+                "revenue": 300000
+              },
+              "tablet": {
+                "units_sold": 600,
+                "revenue": 150000
+              }
+            }
+          },
+          "South America": {
+            "total_sales": 300000,
+            "products": {
+              "laptop": {
+                "units_sold": 800,
+                "revenue": 200000
+              },
+              "tablet": {
+                "units_sold": 400,
+                "revenue": 100000
+              }
+            }
+          }
+        },
+        "total_revenue": 750000,
+        "total_units_sold": 2800
+      },
+      "Tech Horizon": {
+        "sales_period": "Q4 2024",
+        "regions": {
+          "Asia": {
+            "total_sales": 500000,
+            "products": {
+              "smartphone": {
+                "units_sold": 1000,
+                "revenue": 300000
+              },
+              "tablet": {
+                "units_sold": 800,
+                "revenue": 200000
+              }
+            }
+          },
+          "North America": {
+            "total_sales": 600000,
+            "products": {
+              "laptop": {
+                "units_sold": 2000,
+                "revenue": 250000
+              },
+              "smartphone": {
+                "units_sold": 1200,
+                "revenue": 350000
+              }
+            }
+          }
+        },
+        "total_revenue": 1100000,
+        "total_units_sold": 5000
+      },
+      "SmartTech Enterprises": {
+        "sales_period": "Q4 2024",
+        "regions": {
+          "South America": {
+            "total_sales": 300000,
+            "products": {
+              "tablet": {
+                "units_sold": 800,
+                "revenue": 200000
+              },
+              "smartphone": {
+                "units_sold": 1000,
+                "revenue": 100000
+              }
+            }
+          },
+          "North America": {
+            "total_sales": 700000,
+            "products": {
+              "laptop": {
+                "units_sold": 1000,
+                "revenue": 400000
+              },
+              "tablet": {
+                "units_sold": 1200,
+                "revenue": 300000
+              }
+            }
+          }
+        },
+        "total_revenue": 1000000,
+        "total_units_sold": 4000
+      }
+    },
+    "total_sales": 12000000,
+    "total_units_sold": 50000
+  }

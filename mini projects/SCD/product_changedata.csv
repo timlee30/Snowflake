@@ -1,0 +1,5 @@
+ProductID,ProductName,Category,Price,StockQuantity,Supplier,Rating
+P001,External Hard Drive,Office Supplies,500.13,268,Urban Gadgets,3.1
+P050,Gaming Chair,Gaming,336.17,250,DigitalHub,4.5
+P075,Gaming Chair,Outdoor,662.63,117,GearWorks,4.3
+P100,Webcam,Audio,250.35,445,Urban Gadgets,3.3

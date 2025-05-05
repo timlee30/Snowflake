@@ -1,0 +1,101 @@
+ProductID,ProductName,Category,Price,StockQuantity,Supplier,Rating
+P001,External Hard Drive,Office Supplies,324.13,268,Urban Gadgets,3.1
+P002,Gaming Keyboard,Accessories,87.53,143,SmartTech Co.,3.4
+P003,Portable Charger,Photography,328.23,325,TechWorld,1.5
+P004,Wireless Mouse,Gaming,553.01,393,TechWorld,2.7
+P005,Portable Charger,Accessories,525.73,203,SmartTech Co.,4.8
+P006,Noise Cancelling Headphones,Fitness,344.65,236,Elite Tech,3
+P007,Smart Watch,Accessories,870.72,388,NextGen Supplies,2.7
+P008,External Hard Drive,Fitness,101.1,97,GearWorks,3.4
+P009,Gaming Chair,Outdoor,601.61,322,Urban Gadgets,2.5
+P010,Gaming Keyboard,Accessories,308.95,120,Urban Gadgets,3.4
+P011,Fitness Tracker,Audio,808.49,228,Elite Tech,3.5
+P012,Laptop Stand,Accessories,339.99,489,DigitalHub,2.2
+P013,Graphic Tablet,Electronics,208.66,121,DigitalHub,3.8
+P014,Noise Cancelling Headphones,Photography,373.67,93,Urban Gadgets,2.6
+P015,Drone,Wearables,341.99,417,TechWorld,4.4
+P016,External Hard Drive,Electronics,475.15,316,GearWorks,3.1
+P017,Smart Watch,Outdoor,546.67,337,TechWorld,3.1
+P018,Smart Watch,Wearables,44.48,146,Elite Tech,4.5
+P019,Smart Watch,Gaming,348.36,249,TechWorld,1.8
+P020,Electric Scooter,Gaming,362.98,67,Urban Gadgets,3.8
+P021,Action Camera,Peripherals,883.73,118,TechWorld,2.3
+P022,Electric Scooter,Electronics,582.37,196,DigitalHub,4.8
+P023,VR Headset,Gaming,734.56,179,GadgetPro,4
+P024,Fitness Tracker,Photography,127.6,267,Urban Gadgets,2.6
+P025,Wireless Mouse,Peripherals,917.49,208,NextGen Supplies,1.1
+P026,Electric Scooter,Accessories,331.28,290,Urban Gadgets,1.1
+P027,Portable Charger,Photography,324.06,126,GadgetPro,4.2
+P028,VR Headset,Photography,748.64,481,SmartTech Co.,4.3
+P029,VR Headset,Accessories,287.14,422,Urban Gadgets,1.1
+P030,Electric Scooter,Photography,92.89,309,Elite Tech,1.8
+P031,Gaming Chair,Audio,168.9,29,GadgetPro,4.2
+P032,Noise Cancelling Headphones,Audio,688.88,152,DigitalHub,2.1
+P033,Noise Cancelling Headphones,Office Supplies,99.12,485,TechWorld,1.1
+P034,Monitor Arm,Gaming,596.06,81,Urban Gadgets,4.3
+P035,Smartphone Gimbal,Audio,529.87,363,SmartTech Co.,4.9
+P036,Bluetooth Speaker,Office Supplies,229.07,245,Prime Distributors,1.1
+P037,VR Headset,Accessories,899.17,86,GadgetPro,2.8
+P038,Gaming Keyboard,Fitness,677.87,266,Prime Distributors,3.1
+P039,Smart Watch,Accessories,744.13,226,GearWorks,4.3
+P040,Electric Scooter,Office Supplies,762.08,495,DigitalHub,1.5
+P041,Noise Cancelling Headphones,Wearables,333.03,239,NextGen Supplies,3.6
+P042,Noise Cancelling Headphones,Gaming,376.11,95,Elite Tech,3.5
+P043,Laptop Stand,Audio,816.75,320,DigitalHub,1.9
+P044,Graphic Tablet,Outdoor,140.91,473,Prime Distributors,4.6
+P045,Portable Charger,Peripherals,691.65,50,GearWorks,4.5
+P046,Fitness Tracker,Peripherals,137.07,162,Urban Gadgets,4.6
+P047,External Hard Drive,Fitness,68.82,138,GearWorks,2.9
+P048,Gaming Chair,Accessories,398.03,112,Urban Gadgets,1.8
+P049,Smartphone Gimbal,Photography,265.62,456,DigitalHub,4.1
+P050,Gaming Chair,Gaming,336.17,324,DigitalHub,4.5
+P051,Action Camera,Fitness,878.5,281,GadgetPro,4.8
+P052,Action Camera,Wearables,527.15,241,DigitalHub,3.3
+P053,Portable Charger,Gaming,668.43,94,Elite Tech,4.7
+P054,Wireless Mouse,Photography,939.41,216,DigitalHub,3.5
+P055,Wireless Mouse,Electronics,586.13,351,DigitalHub,4.2
+P056,Fitness Tracker,Photography,812.07,151,NextGen Supplies,3.9
+P057,Graphic Tablet,Peripherals,276.96,73,Urban Gadgets,2.3
+P058,Electric Scooter,Photography,112.92,341,Innovative Solutions,2.9
+P059,External Hard Drive,Fitness,924.42,323,GadgetPro,2
+P060,Monitor Arm,Electronics,937.2,113,Prime Distributors,2.2
+P061,USB-C Hub,Gaming,476.96,399,Prime Distributors,2.6
+P062,Action Camera,Audio,656.94,51,DigitalHub,4.6
+P063,Noise Cancelling Headphones,Fitness,198.92,431,SmartTech Co.,4.2
+P064,Gaming Keyboard,Gaming,341.79,121,SmartTech Co.,2.9
+P065,Fitness Tracker,Fitness,476.28,233,Urban Gadgets,3.2
+P066,Gaming Keyboard,Peripherals,451.26,346,Urban Gadgets,3.9
+P067,Electric Scooter,Photography,373.78,235,GadgetPro,5
+P068,Bluetooth Speaker,Audio,535.58,343,NextGen Supplies,4.4
+P069,Gaming Chair,Fitness,852.01,479,Prime Distributors,4.6
+P070,Smartphone Gimbal,Outdoor,317.52,319,Urban Gadgets,1.4
+P071,Drone,Fitness,408.07,464,GadgetPro,2
+P072,USB-C Hub,Office Supplies,561.63,112,Prime Distributors,3.2
+P073,Fitness Tracker,Office Supplies,392.89,374,NextGen Supplies,4.4
+P074,Portable Charger,Electronics,690.24,25,DigitalHub,3.9
+P075,Gaming Chair,Outdoor,662.63,117,GearWorks,3
+P076,Laptop Stand,Audio,460.24,228,DigitalHub,4.3
+P077,Gaming Chair,Electronics,537.51,451,Urban Gadgets,1.4
+P078,Laptop Stand,Photography,496.67,280,Elite Tech,3.1
+P079,External Hard Drive,Electronics,641.44,335,Elite Tech,4.2
+P080,External Hard Drive,Accessories,746.52,78,SmartTech Co.,1.2
+P081,Electric Scooter,Office Supplies,116.46,144,Urban Gadgets,3.3
+P082,Smartphone Gimbal,Accessories,921.96,240,DigitalHub,3.1
+P083,Action Camera,Wearables,785.24,269,Innovative Solutions,4
+P084,Webcam,Photography,436.42,327,Prime Distributors,1
+P085,Fitness Tracker,Outdoor,618.83,289,Urban Gadgets,2.1
+P086,Noise Cancelling Headphones,Fitness,549.6,399,Innovative Solutions,1.2
+P087,4K Monitor,Electronics,676.42,452,Elite Tech,1.3
+P088,Drone,Accessories,28.46,7,Innovative Solutions,4.8
+P089,Action Camera,Gaming,465.53,253,Prime Distributors,2.4
+P090,Gaming Keyboard,Electronics,960.33,89,DigitalHub,2.4
+P091,Wireless Mouse,Outdoor,476.02,315,Urban Gadgets,2.9
+P092,Drone,Electronics,134.49,113,TechWorld,3
+P093,Fitness Tracker,Audio,649.14,440,TechWorld,2.5
+P094,Drone,Office Supplies,691.11,60,Elite Tech,3.4
+P095,Drone,Outdoor,337.5,3,Urban Gadgets,3.9
+P096,Electric Scooter,Electronics,10.83,388,Innovative Solutions,2.7
+P097,Bluetooth Speaker,Fitness,44.45,452,SmartTech Co.,3.1
+P098,Bluetooth Speaker,Office Supplies,495.27,140,TechWorld,3.4
+P099,Bluetooth Speaker,Electronics,677.71,275,SmartTech Co.,4.2
+P100,Webcam,Audio,148.96,445,Urban Gadgets,3.3
