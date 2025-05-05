@@ -1,0 +1,14 @@
+
+    
+    
+    
+    create table dbt_hol_2025_prod.public.weights_table (REGION text,DESK text,TARGET_ALLOCATION float8)
+  ;
+    -- dbt seed --
+    
+            insert into dbt_hol_2025_prod.public.weights_table (REGION, DESK, TARGET_ALLOCATION) values
+            (%s,%s,%s),(%s,%s,%s)
+        
+
+;
+  

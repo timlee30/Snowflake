@@ -1,0 +1,11 @@
+
+    
+    
+
+
+
+select RUN_DATE
+from FOREX_TRACKING_CURRENCY_EXCHANGE_RATES_BY_DAY.STOCK.FOREX_METRICS
+where RUN_DATE is null
+
+
