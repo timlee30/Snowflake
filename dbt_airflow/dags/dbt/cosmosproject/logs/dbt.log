@@ -1,0 +1,483 @@
+[0m04:34:47.507252 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015A18FBAE60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015A19F1EA40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015A19F1E890>]}
+
+
+============================== 04:34:47.510752 | aec00edf-ea0a-4159-b54b-ffc7a209cbc0 ==============================
+[0m04:34:47.510752 [info ] [MainThread]: Running with dbt=1.9.4
+[0m04:34:47.511251 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\tlee\\.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'C:\\Users\\tlee\\Downloads\\snowflake\\dbt_airflow\\dags\\dbt\\cosmosproject\\logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt deps', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m04:34:47.765752 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'aec00edf-ea0a-4159-b54b-ffc7a209cbc0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015A1673B6D0>]}
+[0m04:34:47.787752 [debug] [MainThread]: Set downloads directory='C:\Users\tlee\AppData\Local\Temp\dbt-downloads-97p5ozmh'
+[0m04:34:47.788251 [debug] [MainThread]: Making package index registry request: GET https://hub.getdbt.com/api/v1/index.json
+[0m04:34:48.057108 [debug] [MainThread]: Response from registry index: GET https://hub.getdbt.com/api/v1/index.json 200
+[0m04:34:48.059110 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json
+[0m04:34:48.161322 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json 200
+[0m04:34:48.178321 [info ] [MainThread]: Updating lock file in file path: C:\Users\tlee\Downloads\snowflake\dbt_airflow\dags\dbt\cosmosproject/package-lock.yml
+[0m04:34:48.180822 [debug] [MainThread]: Set downloads directory='C:\Users\tlee\AppData\Local\Temp\dbt-downloads-9guxk88x'
+[0m04:34:48.184321 [info ] [MainThread]: Installing dbt-labs/dbt_utils
+[0m04:34:48.784211 [info ] [MainThread]: Installed from version 1.3.0
+[0m04:34:48.785210 [info ] [MainThread]: Up to date!
+[0m04:34:48.786211 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': 'aec00edf-ea0a-4159-b54b-ffc7a209cbc0', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015A192F79A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015A1A139AE0>]}
+[0m04:34:48.789212 [debug] [MainThread]: Command `dbt deps` succeeded at 04:34:48.788713 after 1.39 seconds
+[0m04:34:48.789712 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015A18FBAE60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015A192F79A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015A1A070340>]}
+[0m04:34:48.790212 [debug] [MainThread]: Flushing usage events
+[0m04:34:49.100213 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:25:25.083292 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f308b8959d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f308aa29e20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f308aa29dc0>]}
+
+
+============================== 23:25:25.090325 | 39be866e-83d8-459e-bf8b-b7f3fb70d441 ==============================
+[0m23:25:25.090325 [info ] [MainThread]: Running with dbt=1.9.4
+[0m23:25:25.091579 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '.', 'version_check': 'True', 'debug': 'False', 'log_path': '/usr/local/airflow/dags/dbt/cosmosproject/logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt seed --profiles-dir . --target dev', 'send_anonymous_usage_stats': 'True'}
+[0m23:25:25.097098 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'cosmosproject'
+[0m23:25:25.099088 [debug] [MainThread]: Resource report: {"command_name": "seed", "command_success": false, "command_wall_clock_time": 0.08325889, "process_in_blocks": "0", "process_kernel_time": 0.111079, "process_mem_max_rss": "89000", "process_out_blocks": "0", "process_user_time": 1.211781}
+[0m23:25:25.100435 [debug] [MainThread]: Command `dbt seed` failed at 23:25:25.100226 after 0.08 seconds
+[0m23:25:25.101514 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f308b8959d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f308aa65250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f308aa651c0>]}
+[0m23:25:25.102547 [debug] [MainThread]: Flushing usage events
+[0m23:25:25.335500 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:31:03.344030 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2e17be2a00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2e16da9310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2e16da90a0>]}
+
+
+============================== 23:31:03.351552 | f0185827-9246-4419-82bf-ba3640340313 ==============================
+[0m23:31:03.351552 [info ] [MainThread]: Running with dbt=1.9.4
+[0m23:31:03.353031 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '.', 'fail_fast': 'False', 'debug': 'False', 'log_path': '/usr/local/airflow/dags/dbt/cosmosproject/logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt seed --profiles-dir . --target dev', 'send_anonymous_usage_stats': 'True'}
+[0m23:31:03.358929 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'default'
+[0m23:31:03.360747 [debug] [MainThread]: Resource report: {"command_name": "seed", "command_success": false, "command_wall_clock_time": 0.08106553, "process_in_blocks": "0", "process_kernel_time": 0.039873, "process_mem_max_rss": "89036", "process_out_blocks": "0", "process_user_time": 1.305866}
+[0m23:31:03.361856 [debug] [MainThread]: Command `dbt seed` failed at 23:31:03.361690 after 0.08 seconds
+[0m23:31:03.362881 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2e17be2a00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2e16d3e370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2e16d3ec10>]}
+[0m23:31:03.363799 [debug] [MainThread]: Flushing usage events
+[0m23:31:03.509637 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:35:28.866401 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8167c349d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8166dcbe50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8166dcbdc0>]}
+
+
+============================== 23:35:28.874300 | 9ba3b389-44ff-4132-bd7f-7bade27715fa ==============================
+[0m23:35:28.874300 [info ] [MainThread]: Running with dbt=1.9.4
+[0m23:35:28.875453 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '.', 'version_check': 'True', 'warn_error': 'None', 'log_path': '/usr/local/airflow/dags/dbt/cosmosproject/logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt seed --profiles-dir . --target dev', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m23:35:29.192367 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '9ba3b389-44ff-4132-bd7f-7bade27715fa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8169336a30>]}
+[0m23:35:29.252891 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '9ba3b389-44ff-4132-bd7f-7bade27715fa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8167438a90>]}
+[0m23:35:29.254555 [info ] [MainThread]: Registered adapter: snowflake=1.9.2
+[0m23:35:29.377018 [debug] [MainThread]: checksum: 53ed91fada2233efb98368d1716b44ab532c83a9c293cf1890b7905d5b45fb25, vars: {}, profile: , target: dev, version: 1.9.4
+[0m23:35:29.381660 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m23:35:29.382681 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '9ba3b389-44ff-4132-bd7f-7bade27715fa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8165ae77c0>]}
+[0m23:35:31.759766 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.cosmosproject.combined_bookings' (models/transform/combined_bookings.sql) depends on a node named 'bookings_1' which was not found
+[0m23:35:31.762142 [debug] [MainThread]: Resource report: {"command_name": "seed", "command_success": false, "command_wall_clock_time": 2.9640732, "process_in_blocks": "0", "process_kernel_time": 0.17186, "process_mem_max_rss": "121176", "process_out_blocks": "0", "process_user_time": 3.386661}
+[0m23:35:31.763500 [debug] [MainThread]: Command `dbt seed` failed at 23:35:31.763382 after 2.97 seconds
+[0m23:35:31.764619 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8167c349d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f813f4a9700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f813f4a9250>]}
+[0m23:35:31.765501 [debug] [MainThread]: Flushing usage events
+[0m23:35:31.891341 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:48:40.052308 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1df51cb9a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1df4362ee0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1df4362e80>]}
+
+
+============================== 23:48:40.059670 | bca936c0-1b43-46cf-a068-32f3d09f9c14 ==============================
+[0m23:48:40.059670 [info ] [MainThread]: Running with dbt=1.9.4
+[0m23:48:40.060816 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': '/usr/local/airflow/dags/dbt/cosmosproject/logs', 'profiles_dir': '.', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt seed --profiles-dir . --target dev', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m23:48:40.367783 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'bca936c0-1b43-46cf-a068-32f3d09f9c14', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1df432ba60>]}
+[0m23:48:40.432679 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'bca936c0-1b43-46cf-a068-32f3d09f9c14', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1df49d0550>]}
+[0m23:48:40.434699 [info ] [MainThread]: Registered adapter: snowflake=1.9.2
+[0m23:48:40.555175 [debug] [MainThread]: checksum: 53ed91fada2233efb98368d1716b44ab532c83a9c293cf1890b7905d5b45fb25, vars: {}, profile: , target: dev, version: 1.9.4
+[0m23:48:40.560048 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m23:48:40.561229 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'bca936c0-1b43-46cf-a068-32f3d09f9c14', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1df3022a00>]}
+[0m23:48:42.997200 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.cosmosproject.combined_bookings' (models/transform/combined_bookings.sql) depends on a node named 'bookings_1' which was not found
+[0m23:48:42.999998 [debug] [MainThread]: Resource report: {"command_name": "seed", "command_success": false, "command_wall_clock_time": 3.0149632, "process_in_blocks": "0", "process_kernel_time": 0.150673, "process_mem_max_rss": "121024", "process_out_blocks": "0", "process_user_time": 3.545841}
+[0m23:48:43.001509 [debug] [MainThread]: Command `dbt seed` failed at 23:48:43.001280 after 3.02 seconds
+[0m23:48:43.002926 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1df51cb9a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1df0c626d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1df0c62220>]}
+[0m23:48:43.004048 [debug] [MainThread]: Flushing usage events
+[0m23:48:43.147037 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:52:20.968218 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdc115c3a00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdc1078d2e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdc1078d2b0>]}
+
+
+============================== 23:52:20.975100 | 46577133-b363-4ff8-a172-6c7499fd2b5f ==============================
+[0m23:52:20.975100 [info ] [MainThread]: Running with dbt=1.9.4
+[0m23:52:20.976423 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '.', 'version_check': 'True', 'debug': 'False', 'log_path': '/usr/local/airflow/dags/dbt/cosmosproject/logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt seed --profiles-dir . --target dev', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m23:52:21.275617 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '46577133-b363-4ff8-a172-6c7499fd2b5f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdc113eff10>]}
+[0m23:52:21.334653 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '46577133-b363-4ff8-a172-6c7499fd2b5f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdc0f4d1910>]}
+[0m23:52:21.336369 [info ] [MainThread]: Registered adapter: snowflake=1.9.2
+[0m23:52:21.457106 [debug] [MainThread]: checksum: 53ed91fada2233efb98368d1716b44ab532c83a9c293cf1890b7905d5b45fb25, vars: {}, profile: , target: dev, version: 1.9.4
+[0m23:52:21.461793 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m23:52:21.462828 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '46577133-b363-4ff8-a172-6c7499fd2b5f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdc0f4a6d60>]}
+[0m23:52:23.814621 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.cosmosproject.customer' (models/transform/customer.sql) depends on a node named 'customers' which was not found
+[0m23:52:23.816472 [debug] [MainThread]: Resource report: {"command_name": "seed", "command_success": false, "command_wall_clock_time": 2.9158447, "process_in_blocks": "0", "process_kernel_time": 0.179175, "process_mem_max_rss": "120444", "process_out_blocks": "0", "process_user_time": 3.384431}
+[0m23:52:23.817494 [debug] [MainThread]: Command `dbt seed` failed at 23:52:23.817367 after 2.92 seconds
+[0m23:52:23.818350 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdc115c3a00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdc0cf02880>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdc0cf02a00>]}
+[0m23:52:23.819203 [debug] [MainThread]: Flushing usage events
+[0m23:52:23.962722 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:57:46.966906 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff24c25ea60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff24b3f4dc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff24b3f4d60>]}
+
+
+============================== 23:57:46.973827 | d4da6437-e099-4003-b91c-08e97a603788 ==============================
+[0m23:57:46.973827 [info ] [MainThread]: Running with dbt=1.9.4
+[0m23:57:46.974964 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': '/usr/local/airflow/dags/dbt/cosmosproject/logs', 'fail_fast': 'False', 'profiles_dir': '.', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt seed --profiles-dir . --target dev', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m23:57:47.268905 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'd4da6437-e099-4003-b91c-08e97a603788', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff24d968670>]}
+[0m23:57:47.327584 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'd4da6437-e099-4003-b91c-08e97a603788', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff24b3cd1f0>]}
+[0m23:57:47.329176 [info ] [MainThread]: Registered adapter: snowflake=1.9.2
+[0m23:57:47.445303 [debug] [MainThread]: checksum: 53ed91fada2233efb98368d1716b44ab532c83a9c293cf1890b7905d5b45fb25, vars: {}, profile: , target: dev, version: 1.9.4
+[0m23:57:47.449829 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m23:57:47.450913 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'd4da6437-e099-4003-b91c-08e97a603788', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff24a0d47c0>]}
+[0m23:57:49.882094 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.cosmosproject.prepped_data' (models/transform/prepped_data.sql) depends on a node named 'combined_bookings' which was not found
+[0m23:57:49.883865 [debug] [MainThread]: Resource report: {"command_name": "seed", "command_success": false, "command_wall_clock_time": 2.9836466, "process_in_blocks": "0", "process_kernel_time": 0.180128, "process_mem_max_rss": "122576", "process_out_blocks": "0", "process_user_time": 3.372402}
+[0m23:57:49.884892 [debug] [MainThread]: Command `dbt seed` failed at 23:57:49.884775 after 2.98 seconds
+[0m23:57:49.885866 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff24c25ea60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff249def490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff249def100>]}
+[0m23:57:49.886776 [debug] [MainThread]: Flushing usage events
+[0m23:57:50.036184 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:58:47.983578 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd791340a60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd7904d4dc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd7904d4d60>]}
+
+
+============================== 23:58:47.990398 | af90ed22-ba1d-4580-88fe-a300761dee34 ==============================
+[0m23:58:47.990398 [info ] [MainThread]: Running with dbt=1.9.4
+[0m23:58:47.991543 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': '.', 'log_path': '/usr/local/airflow/dags/dbt/cosmosproject/logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt seed --profiles-dir . --target dev', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m23:58:48.280018 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'af90ed22-ba1d-4580-88fe-a300761dee34', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd79049e550>]}
+[0m23:58:48.338112 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'af90ed22-ba1d-4580-88fe-a300761dee34', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd790b20280>]}
+[0m23:58:48.339759 [info ] [MainThread]: Registered adapter: snowflake=1.9.2
+[0m23:58:48.458758 [debug] [MainThread]: checksum: 53ed91fada2233efb98368d1716b44ab532c83a9c293cf1890b7905d5b45fb25, vars: {}, profile: , target: dev, version: 1.9.4
+[0m23:58:48.463335 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m23:58:48.464334 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'af90ed22-ba1d-4580-88fe-a300761dee34', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd78f18a250>]}
+[0m23:58:50.864515 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Analysis 'analysis.cosmosproject.hotel_count_by_day' (analyses/hotel_count_by_day.sql) depends on a node named 'prepped_data' which was not found
+[0m23:58:50.866685 [debug] [MainThread]: Resource report: {"command_name": "seed", "command_success": false, "command_wall_clock_time": 2.9507062, "process_in_blocks": "0", "process_kernel_time": 0.089497, "process_mem_max_rss": "120720", "process_out_blocks": "0", "process_user_time": 3.46058}
+[0m23:58:50.867632 [debug] [MainThread]: Command `dbt seed` failed at 23:58:50.867520 after 2.95 seconds
+[0m23:58:50.868490 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd791340a60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd78ef215b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd78ef21100>]}
+[0m23:58:50.869326 [debug] [MainThread]: Flushing usage events
+[0m23:58:51.012026 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:59:20.747074 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6977c03a60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6976d99dc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6976d99d60>]}
+
+
+============================== 23:59:20.754137 | c7122544-7c6c-467b-bb70-531af8157793 ==============================
+[0m23:59:20.754137 [info ] [MainThread]: Running with dbt=1.9.4
+[0m23:59:20.755396 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '.', 'debug': 'False', 'fail_fast': 'False', 'log_path': '/usr/local/airflow/dags/dbt/cosmosproject/logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt seed --profiles-dir . --target dev', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m23:59:21.070456 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'c7122544-7c6c-467b-bb70-531af8157793', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f697930f670>]}
+[0m23:59:21.128930 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'c7122544-7c6c-467b-bb70-531af8157793', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6976d711f0>]}
+[0m23:59:21.130530 [info ] [MainThread]: Registered adapter: snowflake=1.9.2
+[0m23:59:21.250669 [debug] [MainThread]: checksum: 53ed91fada2233efb98368d1716b44ab532c83a9c293cf1890b7905d5b45fb25, vars: {}, profile: , target: dev, version: 1.9.4
+[0m23:59:21.255414 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m23:59:21.256413 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'c7122544-7c6c-467b-bb70-531af8157793', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6975a797c0>]}
+[0m23:59:23.675718 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Analysis 'analysis.cosmosproject.thirty_day_avg_cost' (analyses/thirty_day_avg_cost.sql) depends on a node named 'prepped_data' which was not found
+[0m23:59:23.677687 [debug] [MainThread]: Resource report: {"command_name": "seed", "command_success": false, "command_wall_clock_time": 2.9984448, "process_in_blocks": "0", "process_kernel_time": 0.169459, "process_mem_max_rss": "123248", "process_out_blocks": "0", "process_user_time": 3.399156}
+[0m23:59:23.678716 [debug] [MainThread]: Command `dbt seed` failed at 23:59:23.678584 after 3.00 seconds
+[0m23:59:23.679615 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6977c03a60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f69756a6850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6975781df0>]}
+[0m23:59:23.680469 [debug] [MainThread]: Flushing usage events
+[0m23:59:23.809432 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:59:52.689397 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbb2f8539a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbb2e9e9ee0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbb2e9e9e80>]}
+
+
+============================== 23:59:52.696019 | 248b0c9d-33f5-4cbc-8f76-31e3f4b2f562 ==============================
+[0m23:59:52.696019 [info ] [MainThread]: Running with dbt=1.9.4
+[0m23:59:52.697163 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': '/usr/local/airflow/dags/dbt/cosmosproject/logs', 'debug': 'False', 'profiles_dir': '.', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'invocation_command': 'dbt seed --profiles-dir . --target dev', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m23:59:52.988741 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '248b0c9d-33f5-4cbc-8f76-31e3f4b2f562', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbb2e9b3a60>]}
+[0m23:59:53.047279 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '248b0c9d-33f5-4cbc-8f76-31e3f4b2f562', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbb2f058550>]}
+[0m23:59:53.049065 [info ] [MainThread]: Registered adapter: snowflake=1.9.2
+[0m23:59:53.170630 [debug] [MainThread]: checksum: 53ed91fada2233efb98368d1716b44ab532c83a9c293cf1890b7905d5b45fb25, vars: {}, profile: , target: dev, version: 1.9.4
+[0m23:59:53.175236 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m23:59:53.176281 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '248b0c9d-33f5-4cbc-8f76-31e3f4b2f562', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbb2d6aaa00>]}
+[0m23:59:55.518779 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.cosmosproject.analysis
+- models.cosmosproject.transform
+[0m23:59:55.525628 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '248b0c9d-33f5-4cbc-8f76-31e3f4b2f562', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbb2d4a6fd0>]}
+[0m23:59:55.640328 [debug] [MainThread]: Wrote artifact WritableManifest to /usr/local/airflow/dags/dbt/cosmosproject/target/manifest.json
+[0m23:59:55.646985 [debug] [MainThread]: Wrote artifact SemanticManifest to /usr/local/airflow/dags/dbt/cosmosproject/target/semantic_manifest.json
+[0m23:59:55.666766 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '248b0c9d-33f5-4cbc-8f76-31e3f4b2f562', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbb2c05c0d0>]}
+[0m23:59:55.667767 [info ] [MainThread]: Found 2 models, 3 seeds, 4 data tests, 592 macros
+[0m23:59:55.668636 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '248b0c9d-33f5-4cbc-8f76-31e3f4b2f562', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbb2d3b76d0>]}
+[0m23:59:55.670733 [info ] [MainThread]: 
+[0m23:59:55.671690 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m23:59:55.672543 [info ] [MainThread]: 
+[0m23:59:55.673597 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m23:59:55.679618 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_DEMO_dbt'
+[0m23:59:55.719582 [debug] [ThreadPool]: Using snowflake connection "list_DEMO_dbt"
+[0m23:59:55.720690 [debug] [ThreadPool]: On list_DEMO_dbt: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "default", "target_name": "dev", "connection_name": "list_DEMO_dbt"} */
+show terse schemas in database DEMO_dbt
+    limit 10000
+[0m23:59:55.721639 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m23:59:56.772344 [debug] [ThreadPool]: Snowflake adapter: Error running SQL: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "default", "target_name": "dev", "connection_name": "list_DEMO_dbt"} */
+show terse schemas in database DEMO_dbt
+    limit 10000
+[0m23:59:56.773600 [debug] [ThreadPool]: Snowflake adapter: Rolling back transaction.
+[0m23:59:56.774611 [debug] [ThreadPool]: Snowflake adapter: Error running SQL: macro list_schemas
+[0m23:59:56.775365 [debug] [ThreadPool]: Snowflake adapter: Rolling back transaction.
+[0m23:59:56.776167 [debug] [ThreadPool]: On list_DEMO_dbt: No close available on handle
+[0m23:59:56.777306 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m23:59:56.778024 [debug] [MainThread]: Connection 'list_DEMO_dbt' was properly closed.
+[0m23:59:56.778770 [info ] [MainThread]: 
+[0m23:59:56.779545 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 1.11 seconds (1.11s).
+[0m23:59:56.780676 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Database error while listing schemas in database "DEMO_dbt"
+  Database Error
+    250003 (08001): 404 Not Found: post https://gtb80691.us-east-1.snowflakecomputing.com:443/session/v1/login-request?request_id=6887ebaa-adb9-4286-baa9-c87aa095198d&databaseName=DEMO_dbt&schemaName=PUBLIC&warehouse=COMPUTE_WH&roleName=ACCOUNTADMIN&request_guid=11e6244b-449c-4188-90ce-fe026f63eb4a
+[0m23:59:56.782410 [debug] [MainThread]: Resource report: {"command_name": "seed", "command_success": false, "command_wall_clock_time": 4.159, "process_in_blocks": "0", "process_kernel_time": 0.208609, "process_mem_max_rss": "138124", "process_out_blocks": "2480", "process_user_time": 3.745044}
+[0m23:59:56.783379 [debug] [MainThread]: Command `dbt seed` failed at 23:59:56.783268 after 4.16 seconds
+[0m23:59:56.784197 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbb2f8539a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbb2d819e50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbb2c05c640>]}
+[0m23:59:56.784979 [debug] [MainThread]: Flushing usage events
+[0m23:59:56.934390 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m00:01:26.431639 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6b4d8079d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6b4ca12eb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6b4ca12cd0>]}
+
+
+============================== 00:01:26.438307 | fa12c056-f05a-41e8-b849-e3a6143bd08c ==============================
+[0m00:01:26.438307 [info ] [MainThread]: Running with dbt=1.9.4
+[0m00:01:26.439391 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '.', 'version_check': 'True', 'fail_fast': 'False', 'log_path': '/usr/local/airflow/dags/dbt/cosmosproject/logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt seed --profiles-dir . --target dev', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m00:01:26.446402 [error] [MainThread]: Encountered an error:
+Runtime Error
+  
+  dbt encountered an error while trying to read your profiles.yml file.
+  
+  Runtime Error
+    Syntax error near line 6
+    ------------------------------
+    3  |   outputs:
+    4  |     dev:
+    5  |       type: snowflake
+    6  |       account: account: gtb80691.us-east-1.aws
+    7  |       user: dbt_user
+    8  |       password: 20061216Tl##20061216
+    9  |       role: ACCOUNTADMIN
+    
+    Raw Error:
+    ------------------------------
+    mapping values are not allowed in this context
+      in "<unicode string>", line 6, column 23
+  
+[0m00:01:26.447924 [debug] [MainThread]: Resource report: {"command_name": "seed", "command_success": false, "command_wall_clock_time": 0.035492614, "process_in_blocks": "0", "process_kernel_time": 0.070202, "process_mem_max_rss": "88284", "process_out_blocks": "0", "process_user_time": 1.173389}
+[0m00:01:26.449065 [debug] [MainThread]: Command `dbt seed` failed at 00:01:26.448905 after 0.04 seconds
+[0m00:01:26.450135 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6b4d8079d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6b4c98fb80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6b4c98fa90>]}
+[0m00:01:26.451128 [debug] [MainThread]: Flushing usage events
+[0m00:01:26.601784 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m00:01:49.727814 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4ce6a44a30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4ce5bdae20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4ce5bdadc0>]}
+
+
+============================== 00:01:49.734611 | dbf23f17-a527-4d76-a3f6-23ea601ad0df ==============================
+[0m00:01:49.734611 [info ] [MainThread]: Running with dbt=1.9.4
+[0m00:01:49.735762 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': '/usr/local/airflow/dags/dbt/cosmosproject/logs', 'debug': 'False', 'profiles_dir': '.', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt seed --profiles-dir . --target dev', 'send_anonymous_usage_stats': 'True'}
+[0m00:01:50.026646 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'dbf23f17-a527-4d76-a3f6-23ea601ad0df', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4ce8151640>]}
+[0m00:01:50.085219 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'dbf23f17-a527-4d76-a3f6-23ea601ad0df', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4ce49ea940>]}
+[0m00:01:50.086957 [info ] [MainThread]: Registered adapter: snowflake=1.9.2
+[0m00:01:50.206803 [debug] [MainThread]: checksum: 53ed91fada2233efb98368d1716b44ab532c83a9c293cf1890b7905d5b45fb25, vars: {}, profile: , target: dev, version: 1.9.4
+[0m00:01:50.386936 [info ] [MainThread]: Unable to do partial parsing because profile has changed
+[0m00:01:50.388498 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'dbf23f17-a527-4d76-a3f6-23ea601ad0df', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4ce477a940>]}
+[0m00:01:52.661344 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.cosmosproject.transform
+- models.cosmosproject.analysis
+[0m00:01:52.667551 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'dbf23f17-a527-4d76-a3f6-23ea601ad0df', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4ce4927310>]}
+[0m00:01:52.777493 [debug] [MainThread]: Wrote artifact WritableManifest to /usr/local/airflow/dags/dbt/cosmosproject/target/manifest.json
+[0m00:01:52.783490 [debug] [MainThread]: Wrote artifact SemanticManifest to /usr/local/airflow/dags/dbt/cosmosproject/target/semantic_manifest.json
+[0m00:01:52.802739 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'dbf23f17-a527-4d76-a3f6-23ea601ad0df', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4cde270e50>]}
+[0m00:01:52.803766 [info ] [MainThread]: Found 2 models, 3 seeds, 4 data tests, 592 macros
+[0m00:01:52.804662 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'dbf23f17-a527-4d76-a3f6-23ea601ad0df', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4ce4538220>]}
+[0m00:01:52.806702 [info ] [MainThread]: 
+[0m00:01:52.807655 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m00:01:52.808545 [info ] [MainThread]: 
+[0m00:01:52.809598 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m00:01:52.816473 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_DEMO_dbt'
+[0m00:01:52.852579 [debug] [ThreadPool]: Using snowflake connection "list_DEMO_dbt"
+[0m00:01:52.853732 [debug] [ThreadPool]: On list_DEMO_dbt: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "default", "target_name": "dev", "connection_name": "list_DEMO_dbt"} */
+show terse schemas in database DEMO_dbt
+    limit 10000
+[0m00:01:52.854491 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m00:01:55.481880 [debug] [ThreadPool]: Snowflake adapter: Error running SQL: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "default", "target_name": "dev", "connection_name": "list_DEMO_dbt"} */
+show terse schemas in database DEMO_dbt
+    limit 10000
+[0m00:01:55.482953 [debug] [ThreadPool]: Snowflake adapter: Rolling back transaction.
+[0m00:01:55.483809 [debug] [ThreadPool]: Snowflake adapter: Error running SQL: macro list_schemas
+[0m00:01:55.484570 [debug] [ThreadPool]: Snowflake adapter: Rolling back transaction.
+[0m00:01:55.485349 [debug] [ThreadPool]: On list_DEMO_dbt: No close available on handle
+[0m00:01:55.486580 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m00:01:55.487425 [debug] [MainThread]: Connection 'list_DEMO_dbt' was properly closed.
+[0m00:01:55.488258 [info ] [MainThread]: 
+[0m00:01:55.489303 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 2.68 seconds (2.68s).
+[0m00:01:55.490464 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Database error while listing schemas in database "DEMO_dbt"
+  Database Error
+    250001: Could not connect to Snowflake backend after 2 attempt(s).Aborting
+    Verify that the hostnames and port numbers in SYSTEM$ALLOWLIST are added to your firewall's allowed list.
+    To further troubleshoot your connection you may reference the following article: https://docs.snowflake.com/en/user-guide/client-connectivity-troubleshooting/overview.
+[0m00:01:55.492105 [debug] [MainThread]: Resource report: {"command_name": "seed", "command_success": false, "command_wall_clock_time": 5.830856, "process_in_blocks": "0", "process_kernel_time": 0.249666, "process_mem_max_rss": "139364", "process_out_blocks": "2520", "process_user_time": 3.665102}
+[0m00:01:55.493099 [debug] [MainThread]: Command `dbt seed` failed at 00:01:55.492984 after 5.83 seconds
+[0m00:01:55.493916 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4ce6a44a30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4cde1cfbe0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4cde270ac0>]}
+[0m00:01:55.494700 [debug] [MainThread]: Flushing usage events
+[0m00:01:55.627366 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m00:03:47.650541 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7faf720d09d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7faf71267e50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7faf71267df0>]}
+
+
+============================== 00:03:47.657368 | a48ef668-54f1-4036-95cb-6f264509b66d ==============================
+[0m00:03:47.657368 [info ] [MainThread]: Running with dbt=1.9.4
+[0m00:03:47.658664 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '.', 'debug': 'False', 'warn_error': 'None', 'log_path': '/usr/local/airflow/dags/dbt/cosmosproject/logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt seed --profiles-dir . --target dev', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m00:03:47.956848 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'a48ef668-54f1-4036-95cb-6f264509b66d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7faf737d2a30>]}
+[0m00:03:48.015845 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'a48ef668-54f1-4036-95cb-6f264509b66d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7faf70081250>]}
+[0m00:03:48.017740 [info ] [MainThread]: Registered adapter: snowflake=1.9.2
+[0m00:03:48.136083 [debug] [MainThread]: checksum: 53ed91fada2233efb98368d1716b44ab532c83a9c293cf1890b7905d5b45fb25, vars: {}, profile: , target: dev, version: 1.9.4
+[0m00:03:48.317292 [info ] [MainThread]: Unable to do partial parsing because profile has changed
+[0m00:03:48.318842 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'a48ef668-54f1-4036-95cb-6f264509b66d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7faf73716130>]}
+[0m00:03:50.563844 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.cosmosproject.transform
+- models.cosmosproject.analysis
+[0m00:03:50.570483 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'a48ef668-54f1-4036-95cb-6f264509b66d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7faf6fd4ba00>]}
+[0m00:03:50.681207 [debug] [MainThread]: Wrote artifact WritableManifest to /usr/local/airflow/dags/dbt/cosmosproject/target/manifest.json
+[0m00:03:50.687187 [debug] [MainThread]: Wrote artifact SemanticManifest to /usr/local/airflow/dags/dbt/cosmosproject/target/semantic_manifest.json
+[0m00:03:50.706499 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'a48ef668-54f1-4036-95cb-6f264509b66d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7faf6fd43e80>]}
+[0m00:03:50.707497 [info ] [MainThread]: Found 2 models, 3 seeds, 4 data tests, 592 macros
+[0m00:03:50.708437 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'a48ef668-54f1-4036-95cb-6f264509b66d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7faf70081c10>]}
+[0m00:03:50.710410 [info ] [MainThread]: 
+[0m00:03:50.711395 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m00:03:50.712244 [info ] [MainThread]: 
+[0m00:03:50.713280 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m00:03:50.719987 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_DEMO_dbt'
+[0m00:03:50.771157 [debug] [ThreadPool]: Using snowflake connection "list_DEMO_dbt"
+[0m00:03:50.772741 [debug] [ThreadPool]: On list_DEMO_dbt: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "default", "target_name": "dev", "connection_name": "list_DEMO_dbt"} */
+show terse schemas in database DEMO_dbt
+    limit 10000
+[0m00:03:50.773894 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m00:03:51.369346 [debug] [ThreadPool]: Snowflake adapter: Error running SQL: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "default", "target_name": "dev", "connection_name": "list_DEMO_dbt"} */
+show terse schemas in database DEMO_dbt
+    limit 10000
+[0m00:03:51.370465 [debug] [ThreadPool]: Snowflake adapter: Rolling back transaction.
+[0m00:03:51.371449 [debug] [ThreadPool]: Snowflake adapter: Error running SQL: macro list_schemas
+[0m00:03:51.372258 [debug] [ThreadPool]: Snowflake adapter: Rolling back transaction.
+[0m00:03:51.373139 [debug] [ThreadPool]: On list_DEMO_dbt: No close available on handle
+[0m00:03:51.374353 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m00:03:51.375227 [debug] [MainThread]: Connection 'list_DEMO_dbt' was properly closed.
+[0m00:03:51.376169 [info ] [MainThread]: 
+[0m00:03:51.377134 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 0.66 seconds (0.66s).
+[0m00:03:51.378317 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Database error while listing schemas in database "DEMO_dbt"
+  Database Error
+    250003 (08001): 404 Not Found: post https://gtb80691.us-west-2.snowflakecomputing.com:443/session/v1/login-request?request_id=e357e9b6-a6c1-4c38-974e-4ba3cc874e07&databaseName=DEMO_dbt&schemaName=PUBLIC&warehouse=COMPUTE_WH&roleName=ACCOUNTADMIN&request_guid=c923c603-8732-4eb0-b655-0105b8103f21
+[0m00:03:51.379970 [debug] [MainThread]: Resource report: {"command_name": "seed", "command_success": false, "command_wall_clock_time": 3.7955072, "process_in_blocks": "0", "process_kernel_time": 0.210935, "process_mem_max_rss": "135000", "process_out_blocks": "16", "process_user_time": 3.585901}
+[0m00:03:51.380980 [debug] [MainThread]: Command `dbt seed` failed at 00:03:51.380846 after 3.80 seconds
+[0m00:03:51.382127 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7faf720d09d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7faf6d860b80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7faf6fd43730>]}
+[0m00:03:51.383255 [debug] [MainThread]: Flushing usage events
+[0m00:03:51.517242 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m00:05:48.131699 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fef08265a30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fef073fbe20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fef073fbdc0>]}
+
+
+============================== 00:05:48.138731 | e85be1fb-1086-4810-b208-43f20ab15c57 ==============================
+[0m00:05:48.138731 [info ] [MainThread]: Running with dbt=1.9.4
+[0m00:05:48.140056 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '.', 'debug': 'False', 'version_check': 'True', 'log_path': '/usr/local/airflow/dags/dbt/cosmosproject/logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt seed --profiles-dir . --target dev', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m00:05:48.430746 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'e85be1fb-1086-4810-b208-43f20ab15c57', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fef09970640>]}
+[0m00:05:48.489443 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'e85be1fb-1086-4810-b208-43f20ab15c57', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fef0620a940>]}
+[0m00:05:48.491041 [info ] [MainThread]: Registered adapter: snowflake=1.9.2
+[0m00:05:48.609462 [debug] [MainThread]: checksum: 53ed91fada2233efb98368d1716b44ab532c83a9c293cf1890b7905d5b45fb25, vars: {}, profile: , target: dev, version: 1.9.4
+[0m00:05:48.787848 [info ] [MainThread]: Unable to do partial parsing because profile has changed
+[0m00:05:48.789415 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'e85be1fb-1086-4810-b208-43f20ab15c57', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fef05f9b940>]}
+[0m00:05:51.017472 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.cosmosproject.transform
+- models.cosmosproject.analysis
+[0m00:05:51.024036 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'e85be1fb-1086-4810-b208-43f20ab15c57', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fef05f6bca0>]}
+[0m00:05:51.131356 [debug] [MainThread]: Wrote artifact WritableManifest to /usr/local/airflow/dags/dbt/cosmosproject/target/manifest.json
+[0m00:05:51.137521 [debug] [MainThread]: Wrote artifact SemanticManifest to /usr/local/airflow/dags/dbt/cosmosproject/target/semantic_manifest.json
+[0m00:05:51.157021 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'e85be1fb-1086-4810-b208-43f20ab15c57', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fef073c5520>]}
+[0m00:05:51.158112 [info ] [MainThread]: Found 2 models, 3 seeds, 4 data tests, 592 macros
+[0m00:05:51.159074 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'e85be1fb-1086-4810-b208-43f20ab15c57', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fef05d5a280>]}
+[0m00:05:51.161103 [info ] [MainThread]: 
+[0m00:05:51.162003 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m00:05:51.162831 [info ] [MainThread]: 
+[0m00:05:51.163860 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m00:05:51.169575 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_DEMO_dbt'
+[0m00:05:51.205759 [debug] [ThreadPool]: Using snowflake connection "list_DEMO_dbt"
+[0m00:05:51.207099 [debug] [ThreadPool]: On list_DEMO_dbt: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "default", "target_name": "dev", "connection_name": "list_DEMO_dbt"} */
+show terse schemas in database DEMO_dbt
+    limit 10000
+[0m00:05:51.208034 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m00:05:53.753171 [debug] [ThreadPool]: Snowflake adapter: Error running SQL: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "default", "target_name": "dev", "connection_name": "list_DEMO_dbt"} */
+show terse schemas in database DEMO_dbt
+    limit 10000
+[0m00:05:53.754397 [debug] [ThreadPool]: Snowflake adapter: Rolling back transaction.
+[0m00:05:53.755453 [debug] [ThreadPool]: Snowflake adapter: Error running SQL: macro list_schemas
+[0m00:05:53.756190 [debug] [ThreadPool]: Snowflake adapter: Rolling back transaction.
+[0m00:05:53.756985 [debug] [ThreadPool]: On list_DEMO_dbt: No close available on handle
+[0m00:05:53.758052 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m00:05:53.758903 [debug] [MainThread]: Connection 'list_DEMO_dbt' was properly closed.
+[0m00:05:53.759683 [info ] [MainThread]: 
+[0m00:05:53.760606 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 2.60 seconds (2.60s).
+[0m00:05:53.761748 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Database error while listing schemas in database "DEMO_dbt"
+  Database Error
+    250001: Could not connect to Snowflake backend after 2 attempt(s).Aborting
+    Verify that the hostnames and port numbers in SYSTEM$ALLOWLIST are added to your firewall's allowed list.
+    To further troubleshoot your connection you may reference the following article: https://docs.snowflake.com/en/user-guide/client-connectivity-troubleshooting/overview.
+[0m00:05:53.763449 [debug] [MainThread]: Resource report: {"command_name": "seed", "command_success": false, "command_wall_clock_time": 5.698644, "process_in_blocks": "0", "process_kernel_time": 0.121768, "process_mem_max_rss": "139088", "process_out_blocks": "16", "process_user_time": 3.703794}
+[0m00:05:53.764434 [debug] [MainThread]: Command `dbt seed` failed at 00:05:53.764307 after 5.70 seconds
+[0m00:05:53.765265 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fef08265a30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7feeff9dbbe0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7feeffa7c0d0>]}
+[0m00:05:53.766079 [debug] [MainThread]: Flushing usage events
+[0m00:05:54.189751 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m00:07:13.465379 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6dadfb8a60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6dad14edc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6dad14ed60>]}
+
+
+============================== 00:07:13.472052 | 558ec9be-ecc6-4e37-b83f-da74ead51d67 ==============================
+[0m00:07:13.472052 [info ] [MainThread]: Running with dbt=1.9.4
+[0m00:07:13.473186 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '.', 'debug': 'False', 'warn_error': 'None', 'log_path': '/usr/local/airflow/dags/dbt/cosmosproject/logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt seed --profiles-dir . --target dev', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m00:07:13.769964 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '558ec9be-ecc6-4e37-b83f-da74ead51d67', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6daf6c3670>]}
+[0m00:07:13.830344 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '558ec9be-ecc6-4e37-b83f-da74ead51d67', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6dad1261f0>]}
+[0m00:07:13.831967 [info ] [MainThread]: Registered adapter: snowflake=1.9.2
+[0m00:07:13.956890 [debug] [MainThread]: checksum: 53ed91fada2233efb98368d1716b44ab532c83a9c293cf1890b7905d5b45fb25, vars: {}, profile: , target: dev, version: 1.9.4
+[0m00:07:14.141642 [info ] [MainThread]: Unable to do partial parsing because profile has changed
+[0m00:07:14.143305 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '558ec9be-ecc6-4e37-b83f-da74ead51d67', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6dabeaa6a0>]}
+[0m00:07:16.407652 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.cosmosproject.analysis
+- models.cosmosproject.transform
+[0m00:07:16.414171 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '558ec9be-ecc6-4e37-b83f-da74ead51d67', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6dabaeca60>]}
+[0m00:07:16.525106 [debug] [MainThread]: Wrote artifact WritableManifest to /usr/local/airflow/dags/dbt/cosmosproject/target/manifest.json
+[0m00:07:16.531019 [debug] [MainThread]: Wrote artifact SemanticManifest to /usr/local/airflow/dags/dbt/cosmosproject/target/semantic_manifest.json
+[0m00:07:16.551316 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '558ec9be-ecc6-4e37-b83f-da74ead51d67', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6dad18d400>]}
+[0m00:07:16.552368 [info ] [MainThread]: Found 2 models, 3 seeds, 4 data tests, 592 macros
+[0m00:07:16.553257 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '558ec9be-ecc6-4e37-b83f-da74ead51d67', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6da9866850>]}
+[0m00:07:16.555379 [info ] [MainThread]: 
+[0m00:07:16.556263 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m00:07:16.557166 [info ] [MainThread]: 
+[0m00:07:16.558196 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m00:07:16.563810 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_DEMO_dbt'
+[0m00:07:16.600655 [debug] [ThreadPool]: Using snowflake connection "list_DEMO_dbt"
+[0m00:07:16.601781 [debug] [ThreadPool]: On list_DEMO_dbt: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "default", "target_name": "dev", "connection_name": "list_DEMO_dbt"} */
+show terse schemas in database DEMO_dbt
+    limit 10000
+[0m00:07:16.602609 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m00:07:17.253524 [debug] [ThreadPool]: Snowflake adapter: Error running SQL: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "default", "target_name": "dev", "connection_name": "list_DEMO_dbt"} */
+show terse schemas in database DEMO_dbt
+    limit 10000
+[0m00:07:17.254750 [debug] [ThreadPool]: Snowflake adapter: Rolling back transaction.
+[0m00:07:17.255838 [debug] [ThreadPool]: Snowflake adapter: Error running SQL: macro list_schemas
+[0m00:07:17.256632 [debug] [ThreadPool]: Snowflake adapter: Rolling back transaction.
+[0m00:07:17.257558 [debug] [ThreadPool]: On list_DEMO_dbt: No close available on handle
+[0m00:07:17.258821 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m00:07:17.259730 [debug] [MainThread]: Connection 'list_DEMO_dbt' was properly closed.
+[0m00:07:17.260654 [info ] [MainThread]: 
+[0m00:07:17.261775 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 0.70 seconds (0.70s).
+[0m00:07:17.262990 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Database error while listing schemas in database "DEMO_dbt"
+  Database Error
+    250003 (08001): 404 Not Found: post https://gtb08691.us-west-2.snowflakecomputing.com:443/session/v1/login-request?request_id=9e20af50-209c-4ee0-ba33-314094e54024&databaseName=DEMO_dbt&schemaName=PUBLIC&warehouse=COMPUTE_WH&roleName=ACCOUNTADMIN&request_guid=0d44b7f3-4f1a-4bdb-9dc6-d4e9976307bc
+[0m00:07:17.264558 [debug] [MainThread]: Resource report: {"command_name": "seed", "command_success": false, "command_wall_clock_time": 3.8669531, "process_in_blocks": "0", "process_kernel_time": 0.230174, "process_mem_max_rss": "134548", "process_out_blocks": "16", "process_user_time": 3.622741}
+[0m00:07:17.265589 [debug] [MainThread]: Command `dbt seed` failed at 00:07:17.265462 after 3.87 seconds
+[0m00:07:17.266516 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6dadfb8a60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6da9747c10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6dabbe5430>]}
+[0m00:07:17.267395 [debug] [MainThread]: Flushing usage events
+[0m00:07:17.410844 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m01:19:07.937671 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0d5d7a3a00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0d5c963e20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0d5c92f430>]}
+
+
+============================== 01:19:07.944667 | 542ff898-6ac6-4f20-be24-16f6f89e7e75 ==============================
+[0m01:19:07.944667 [info ] [MainThread]: Running with dbt=1.9.4
+[0m01:19:07.945805 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': '/usr/local/airflow/dags/dbt/cosmosproject/logs', 'profiles_dir': '.', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt clean --profiles-dir .', 'send_anonymous_usage_stats': 'True'}
+[0m01:19:08.071713 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '542ff898-6ac6-4f20-be24-16f6f89e7e75', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0d5c87d910>]}
+[0m01:19:08.357077 [debug] [MainThread]: Resource report: {"command_name": "clean", "command_success": true, "command_wall_clock_time": 0.48582655, "process_in_blocks": "0", "process_kernel_time": 0.080166, "process_mem_max_rss": "90592", "process_out_blocks": "0", "process_user_time": 1.402921}
+[0m01:19:08.358300 [debug] [MainThread]: Command `dbt clean` succeeded at 01:19:08.358145 after 0.49 seconds
+[0m01:19:08.359290 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0d5d7a3a00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0d5c81d820>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0d5c7f2fa0>]}
+[0m01:19:08.360208 [debug] [MainThread]: Flushing usage events
+[0m01:19:08.704519 [debug] [MainThread]: An error was encountered while trying to flush usage events
